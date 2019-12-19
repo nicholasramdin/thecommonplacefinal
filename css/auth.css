@@ -1,0 +1,22 @@
+#user-info {
+	display: none;
+}
+
+.auth #user-info {
+	display: block;
+}
+
+.auth #login {
+	display: none;
+}
+
+#write-post {
+	display: none;
+}
+
+.auth #write-post {
+	display: block;
+}
+
+
+

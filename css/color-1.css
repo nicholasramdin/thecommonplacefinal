@@ -1,0 +1,48 @@
+/* red and green scheme */
+
+
+	/*triadic color scheme */
+	
+
+
+	
+:root {
+	--main-hue:120; 
+	
+	--main-color: hsl(var(--main-hue), 70%, 60%);
+	--text-color: var(--main-color);
+		
+	--accent-one-hue: calc(var(--main-hue) - 120);
+	--accent-two-hue: calc(var(--main-hue) + 50);
+	
+	--accent-one: hsl(var(--accent-one-hue), 80%, 50%);
+	--accent-two: hsl(var(--accent-two-hue), 40%,70%);
+		
+	--complement: var(--accent-two);
+}
+	
+	
+	
+* {
+	color: var(--text-color);
+}
+
+#title h1 {
+	color: var(--main-color);
+}
+
+#menu, #login {
+	background-color: var(--accent-one);
+}
+
+button {
+	background-color: var(--complement);
+}
+
+a {
+	color: var(--link-color);
+}
+
+#social {
+	background-color: var(--complement);
+}

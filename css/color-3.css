@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+/* orange and blue scheme */
+
+/* complementary */
+
+:root {
+	--main-hue: 20;
+	--complement-hue: calc(var(--main-hue) - 150);
+	
+	--main-color: hsl(var(--main-hue), 10%,10%);
+	--complement: hsl(var(--complement-hue), 50%, 50%);
+	--accent-one: hsl(var(--main-hue), 70%, 60%);
+	--accent-two: hsl(var(--complement-hue), 90%, 30%);
+		
+	--text-color: var(--main-color);
+	--link-color: var(--complement);
+}
+
+ 
+
+
+	
+	
+* {
+	color: var(--text-color);
+}
+
+#title h1 {
+	background-color: var(--accent-one);
+}
+
+#menu, #login {
+	background-color: var(--accent-one);
+}
+
+button {
+	background-color: var(--accent-one);
+}
+
+a {
+	color: var(--link-color);
+}
+
+#social {
+	background-color: var(--accent-one);
+}

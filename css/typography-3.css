@@ -1,0 +1,35 @@
+/* typography hiearchy 3*/
+
+:root{
+    --display-font:'Pathway Gothic One', serif;
+    --text-font:'Economica', serif;
+    --sub-font:'Poiret One', cursive;
+}
+    
+h1{font-family: var(--display-font);}
+    
+a{
+    font-family: var(--display-font);
+    font-size:1.5em;
+        }
+    
+button{
+    font-family: var(--text-font);
+        font-size:1.2em;
+}
+    
+.post .text{
+    font-family:var(--text-font);
+    font-size:2em;
+}
+    
+.post .author{
+    font-family:var(--sub-font);
+    font-size:1em;
+}
+    
+.post .date{
+    font-family:var(--sub-font);
+    font-size:.2em;
+    padding-top:10px;
+}

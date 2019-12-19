@@ -1,0 +1,31 @@
+
+#post-text {
+    font-size: 20px;
+    color: #e68422;
+}
+
+#publish-post {
+    font-size: 30px;
+justify-content: space-evenly;
+padding: 20px;
+display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-flex;
+    border-radius: 10px;
+    font-weight: bold;
+    max-width:118px;
+    color:#000;
+    align-self: center;
+    
+}
+
+.btn:hover {
+    background-color: #229e00;
+    color: #fff;
+    animation: scale .25s linear 1;
+    transform: scale(1.5, 1.5);
+}
+

@@ -1,0 +1,37 @@
+/* typography hiearchy 1*/
+
+:root {
+    --display-font: 'Josefin Sans', serif;
+    --text-font: 'Sulphur Point', serif;
+    --sub-font: 'Lora', serif;
+}
+
+h1 {
+    font-family: var(--display-font);
+}
+
+a {
+    font-family: var(--display-font);
+    font-size: 1.5em;
+}
+
+button {
+    font-family: var(--text-font);
+    font-size: 1.2em;
+}
+
+.post .text {
+    font-family: var(--text-font);
+    font-size: 2em;
+}
+
+.post .author {
+    font-family: var(--sub-font);
+    font-size: 1em;
+}
+
+.post .date {
+    font-family: var(--sub-font);
+    font-size: .2em;
+    padding-top: 10px;
+}

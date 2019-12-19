@@ -1,0 +1,46 @@
+/* mint green scheme */
+
+/* monochromatic */
+:root {
+	--main-hue:160;
+	--saturation:10;
+	--lightness: 0;
+	
+	--main-color: hsl(var(--main-hue), 50%, 70%);
+		
+	--sat-percent: calc(var(--saturation) * 2%);
+	--accent-one: hsl(var(--main-hue), var(--sat-percent), 40%);
+		
+	--lit-percent: calc(var(--lightness) * 1%);
+	--accent-two: hsl(var(--main-hue), 50%, var(--lit-percent));
+		
+	--complement: var(--accent-one);
+	--text-color: var(--main-color);
+	--link-color: var(--accent-one);
+}
+
+ 	
+	
+* {
+	color: var(--text-color);
+}
+
+#title h1 {
+	color: var(--main-color);
+}
+
+#menu, #login {
+	background-color: var(--accent-one);
+}
+
+button {
+	background-color: var(--complement);
+}
+
+a {
+	color: var(--link-color);
+}
+
+#social {
+	background-color: var(--complement);
+}
